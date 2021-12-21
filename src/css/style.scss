@@ -5,13 +5,17 @@
 }
 
 body {
-  margin: 0 auto;
-  max-width: 411px;
   background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
 }
 
 a {
   text-decoration: none;
+}
+
+.tombol {
+  background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%); 
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  padding: 5px 15px;
 }
 
 nav {
@@ -86,9 +90,9 @@ ul {
   }
 }
 
-@media screen and (max-width: 450px) {
-  body {
-    margin: 0 auto;
-    background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
-  }
-}
+// @media screen and (max-width: 450px) {
+//   body {
+//     margin: 0 auto;
+//     background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
+//   }
+// }
