@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 411px;
+  background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #121212;
+  padding: 10px;
+}
+nav .signin {
+  background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  padding: 5px 15px;
+}
+nav ul {
+  border-bottom: 0.1px solid #353535;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+nav ul li img {
+  width: 26px;
+}
+nav ul li a {
+  font-size: 14px;
+  text-decoration: none;
+}
+nav .sub-title {
+  font-size: 10px;
+  padding: 10px;
+  color: #B1B1B1;
+}
+
+main .grid a p {
+  font-size: 14px;
+}
+
+ul li a p {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(228.89deg, #270101 14.85%, #000000 140.17%), #FFFFFF;
+  box-shadow: 0px 4px 49px #060606;
+}
+.menu ul li {
+  top: -33px;
+}
+.menu ul li .center {
+  margin-top: -50px;
+}
+.menu ul li .center .bg {
+  width: 58px;
+  height: 58px;
+  background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 50.12%, #FFFCA9 81.61%, #FFFEED 99.32%);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    margin: 0 auto;
+    background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
+  }
+}/*# sourceMappingURL=style.css.map */
