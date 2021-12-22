@@ -12,6 +12,21 @@ body {
   padding-right: 15px;
 }
 
+.daftar input {
+  font-size: 14px;
+  line-height: 21px;
+  padding: 7px 12px;
+}
+.daftar input::-moz-placeholder {
+  color: #FFC700;
+}
+.daftar input:-ms-input-placeholder {
+  color: #FFC700;
+}
+.daftar input::placeholder {
+  color: #FFC700;
+}
+
 .title {
   color: white;
   font-size: 20px;
