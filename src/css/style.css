@@ -7,6 +7,11 @@ body {
   background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
 }
 
+.cover {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 a {
   text-decoration: none;
 }
@@ -17,9 +22,20 @@ a {
   padding: 5px 15px;
 }
 
+nav .flex button {
+  padding: 0;
+}
+nav .flex button:active {
+  outline: none !important;
+  border: none !important;
+}
+nav .flex button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
 nav {
   background-color: #121212;
-  padding: 10px;
 }
 nav .signin {
   background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%);
