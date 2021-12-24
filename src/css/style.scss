@@ -18,11 +18,32 @@ body {
     font-size: 14px;
     line-height: 21px;
     padding: 7px 12px;
+    color: #FFC700;
     
   }
   input::placeholder {
     color: #FFC700;
   }
+  select {
+    font-size: 14px;
+    color: #FFC700;
+    padding: 7px 12px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    option {
+      background-color: #3C0708;
+    }
+    option:hover {
+      background-color: yellow;
+    }
+    
+  }
+  .custome-select {
+    width: 100%;
+    position: relative;
+  }
+
 }
 
 .title {

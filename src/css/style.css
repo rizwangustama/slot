@@ -16,6 +16,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   padding: 7px 12px;
+  color: #FFC700;
 }
 .daftar input::-moz-placeholder {
   color: #FFC700;
@@ -25,6 +26,24 @@ body {
 }
 .daftar input::placeholder {
   color: #FFC700;
+}
+.daftar select {
+  font-size: 14px;
+  color: #FFC700;
+  padding: 7px 12px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.daftar select option {
+  background-color: #3C0708;
+}
+.daftar select option:hover {
+  background-color: yellow;
+}
+.daftar .custome-select {
+  width: 100%;
+  position: relative;
 }
 
 .title {
