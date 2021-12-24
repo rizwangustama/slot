@@ -12,6 +12,10 @@ body {
   padding-right: 15px;
 }
 
+.profile {
+  width: 68px;
+}
+
 .daftar input {
   font-size: 14px;
   line-height: 21px;
