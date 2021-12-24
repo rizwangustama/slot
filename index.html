@@ -73,7 +73,7 @@
             <img src="./src/image/logo.png" width="92px" alt="">
           </a>
         </div>
-        <button class="text-black tombol px-4">Masuk</button>
+        <button class="text-black tombol px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Masuk</button>
         <div
           class="offcanvas offcanvas-start w-8/12"
           tabindex="-1"
@@ -135,6 +135,35 @@
         </div>
       </div>
     </nav>
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered w-4/5 mx-auto">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close absolute p-0 right-0 top-0 w-6" data-bs-dismiss="modal" aria-label="Close">
+                <img class="w-full" src="./src/image/icon/icon-close.svg" alt="">
+              </button>
+              <h5 class="w-full modal-title text-center text-white" id="exampleModalLabel">MASUK</h5>
+            </div>
+            <div class="modal-body">
+              <form class="login" action="">
+                <input type="text" class="w-full  border-1 border-white rounded-3 mb-3" placeholder="Nama Pengguna">
+                <input type="text" class="w-full  border-1 border-white rounded-3 mb-3" placeholder="Password">
+                <div class="flex">
+                  <input type="text" class="w-full border-1 border-white rounded-3 w-3/5" placeholder="Referal">
+                  <div class="referal text-white flex items-center ml-3 w-2/5 justify-center">11459</div>
+                </div>
+                <div class="flex items-center mt-3 mb-3">
+                  <button class="tombol w-2/5">Masuk</button>
+                  <p class="w-3/5 text-right" style="color: #FFC700">Belum punya akun?</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
   <!-- Swiper -->
     <div class="swiper mySwiper">
