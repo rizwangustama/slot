@@ -33,6 +33,75 @@ body {
   background-color: #460606;
 }
 
+.hongkong {
+  background: linear-gradient(76.24deg, #C21617 -19.1%, #EF2726 117.22%);
+}
+
+.sydney {
+  background: linear-gradient(76.24deg, #DE8807 -19.1%, #FBAA30 117.22%);
+}
+
+.ginting {
+  background: #01D57C;
+}
+
+.pools {
+  background: #EA9618;
+}
+
+.soka {
+  background: linear-gradient(247.41deg, #A95FF2 -15.7%, #8B29EC 64.69%);
+}
+
+.nagaworld {
+  background: linear-gradient(76.24deg, #090D6C -19.1%, #0D16B3 117.22%);
+}
+
+.singapore {
+  background: linear-gradient(76.24deg, #004A8C -19.1%, #0292D8 117.22%);
+}
+
+.collapse-content .collapse-wrapper {
+  padding: 13px 15px;
+}
+.collapse-content .collapse-wrapper h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: semibold;
+}
+.collapse-content .collapse-wrapper h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #2D2E33;
+}
+.collapse-content .collapse-wrapper p {
+  font-size: 12px;
+}
+.collapse-content .info {
+  padding: 4px 16px;
+  background: linear-gradient(0deg, #480707 0%, #521010 100%);
+}
+.collapse-content .info p {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 6px;
+}
+
+.collapse {
+  background: linear-gradient(0deg, #480707 0%, #521010 100%);
+}
+.collapse .card-body {
+  border-radius: 0px !important;
+  background: linear-gradient(0deg, #480707 0%, #521010 100%);
+}
+.collapse .card-body p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
 .daftar input {
   font-size: 14px;
   line-height: 21px;
