@@ -208,12 +208,13 @@ ul li a p {
   box-shadow: 0px 4px 49px #060606;
 }
 .menu ul li {
-  top: -33px;
+  top: -36px;
 }
 .menu ul li .center {
   margin-top: -50px;
 }
 .menu ul li .center .bg {
+  margin-bottom: 4px;
   width: 58px;
   height: 58px;
   background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 50.12%, #FFFCA9 81.61%, #FFFEED 99.32%);
