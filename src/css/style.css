@@ -7,6 +7,10 @@ body {
   background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
 }
 
+.swiper-pagination-bullet-active {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
 .cover {
   padding-left: 15px;
   padding-right: 15px;
