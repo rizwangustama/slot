@@ -293,6 +293,13 @@ ul {
   }
 }
 
+.collapsing {
+  background: transparent!important;
+  transition: all 0.1s ease!important;
+  border-radius: 0px;
+  display: none !important;
+}
+
 // @media screen and (max-width: 450px) {
 //   body {
 //     margin: 0 auto;
