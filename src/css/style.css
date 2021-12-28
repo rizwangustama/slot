@@ -102,6 +102,41 @@ body {
   font-weight: lighter;
 }
 
+.collapse-promotion {
+  background: #120000;
+}
+.collapse-promotion .card-body {
+  border-radius: 0px !important;
+  background: #120000;
+}
+.collapse-promotion .card-body h1 {
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px dashed white;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.collapse-promotion .card-body p {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 0;
+  padding: 10px 0;
+  text-align: justify;
+  line-height: 21px;
+}
+.collapse-promotion .card-body h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.collapse-promotion .card-body ul {
+  padding-top: 2px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.collapse-promotion .card-body ul li {
+  font-size: 14px;
+}
+
 .daftar input {
   font-size: 14px;
   line-height: 21px;
@@ -198,6 +233,13 @@ main .grid a p {
 ul li a p {
   font-weight: 200;
   font-size: 12px;
+}
+
+.promotion .collapse-promotion {
+  background-color: green !important;
+}
+.promotion .show {
+  background-color: green !important;
 }
 
 .menu {
