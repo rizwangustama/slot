@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panduan</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      menu {
+        top: 0px;
+        left: 0;
+        background-color: #121212;
+        width: 289px;
+      }
+    </style>
+  </head>
+
+  <body class="mx-auto relative">
+    <nav
+      class="navbar navbar-light sticky-top py-3"
+      style="background-color: #121212"
+    >
+      <div class="container-fluid">
+        <div class="flex">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            style="outline: transparent"
+          >
+            <img src="../src/image/toogle.svg" alt="" />
+          </button>
+
+          <a class="ml-5" href="">
+            <h1 class="title text-white">Panduan</h1>
+          </a>
+        </div>
+        <button class="text-black tombol hidden">Masuk</button>
+        <div
+          class="offcanvas offcanvas-start w-8/12"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+          style="background-color: #121212"
+        >
+          <div class="grid grid-cols-1 h-full">
+            <div class="wrapper">
+              <button
+              type="button"
+              class="btn-close text-reset hidden"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+              ></button>
+              <img class="p-3" src="../src/image/logo.png" width="120px" alt="" />
+              <ul class="w-full">
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/navbar/sport.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="./sportbook.html" class="pl-4 w-full text-white">Sports</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/navbar/live-casino.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="./live-casino.html" class="pl-4 w-full text-white">Live Casino</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/navbar/poker.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="./poker.html" class="pl-4 w-full text-white">Poker</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/icon/icon-togel.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="" class="pl-4 w-full text-white">Togel</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/icon/icon-keno.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="" class="pl-4 w-full text-white">Keno</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/navbar/slot.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="" class="pl-4 w-full text-white">Slots</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/navbar/promosi.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="" class="pl-4 w-full text-white">Promosi</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/navbar/Rules.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="" class="pl-4 w-full text-white">Panduan</a>
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../src/image/icon/icon-logout.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="" class="pl-4 w-full text-white">Logout</a>
+                </li>
+              </ul>
+            </div>
+
+            <p
+              class="text-white py-2 text-center flex justify-center items-end"
+              style="font-size: 10px; color: #b1b1b1"
+            >
+              © 2021 OKE77SLOT. ALL RIGHTS RESERVED.
+            </p>
+            <button
+              class="hidden tombol mt-1 flex mx-auto justify-center font-medium px-4"
+              style="width: 90%"
+            >
+              LOGOUT
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="cover pt-2 pb-5">
+      <div class="panduan text-white">
+        <h1 class="text-center py-4">Proses Pendaftaran ke Oke77</h1>
+        <p>
+          Proses pendaftaran ke dalam situs Oke77 Indonesia ini cukup mudah. Anda tidak memerlukan waktu yang lama untuk bisa bergabung. Situs ini memang menyediakan banyak sekali pilihan yang berarti untuk para pemainnya. Jadi, Anda pun bisa segera mendapatkan hasil yang maksimal hanya dalam waktu relatif cepat. Oleh karena itu, segeralah masuk dan bermain ke dalam situs ini. Proses pendaftaran yang cepat pun bisa membuat Anda semakin mudah untuk mengakses permainan judi yang paling bagus. Berikut ini penjelasan mengenai pendaftaran ke dalam situs judi online terbaik.
+        </p>
+        <ul>
+          <li>
+            <p>Cukup Satu Akun Saja</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Anda akan bisa memasuki permainan judi yang sangat seru hanya di dalam situs Oke77 Indonesia ini saja. Untuk bisa memainkan semua pertandingan itu, Anda hanya membutuhkan satu ID nomor saja. Jelas saja semua ini akan memberikan hasil yang terbaik bagi para pemain Indonesia. Anda pun tidak perlu cemas karena Oke77 ini akan memberikan semua yang Anda butuhkan untuk bisa mendaftarkan diri. Anda hanya perlu login satu kali saja dan semua permainan yang ada akan bisa dimainkan dengan baik. Jadi, sebaiknya Anda segera mendaftarkan diri dengan baik.</p>
+          </li>
+
+          <li>
+            <p>Bermain dengan penuh Tanggung Jawab</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Selanjutnya, Anda pun bisa bermain judi online ini dengan penuh tanggung jawab. Permainan ini memang akan membawa Anda sebagai pemain ke dalam hasil yang dijamin besar. Oleh karena itu, segeralah bermain judi di dalam situs ini sekarang juga. Semua hasil yang diperoleh itu bisa memberikan rasa kepuasan yang jauh lebih besar. Oleh karena itu, Anda sebagai pemain harus bisa menjaga ketertiban bersama. Situs ini merupakan area khusus untuk pemain yang berusia 18 tahun ke atas. Sebaiknya Anda mematahui peraturan ini demi kepentingan judi bersama yang jauh lebih baik.</p>
+          </li>
+
+          <li>
+            <p>Keamanan Personal Terjamin</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Permainan dengan judi Oke77 Indonesia ini pun akan memberikan kenyamanan yang besar untuk semua pemain. Seringkali pemain merasa kurang nyaman bermain karena situs kurang aman. Kalau Anda ingin bermain judi dengan penuh rasa nyaman, sebaiknya saja bergabung ke dalam situs yang satu ini. Dengan begitu, Anda akan memperoleh kenyamanan yang jauh lebih besar dari sebelumnya. Oke77 ini akan menjaga privasi serta semua aktifitas yang dilakukan oleh para pemain. Jadi, Anda pun bisa segera melakukan hal-hal yang dijamin memberikan kesenangan.</p>
+          </li>
+        </ul>
+        <h1 class="text-center text-white pt-4 pb-3">Informasi Dari Situs Oke77 Indonesia</h1>
+        <p>Semua informasi yang ada di dalam situs Oke77 Indonesia ini memang sudah disediakan secara khusus untuk Anda sebagai pemain. Jelas saja Anda pun bisa menikmati permainan ini dengan lebih baik. Tentu saja Anda pun tidak harus berkunjung ke dalam situs lainnya untuk bisa memperoleh informasi terbaru. Semua yang ada di dalam permainan ini jelas bisa membuat Anda semakin maju di dalam permainan. Jadi, Anda tidak akan ketinggalan dengan pemain lainnya dalam memperoleh informasi pertandingan terbaru untuk kemenangan yang lebih besar lagi:</p>
+
+        <ul>
+          <li>
+            <p>Informasi Hasil Pertandingan Olahraga</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Sebagai pemain, Anda akan bisa memperoleh informasi terkini mengenai pertandingan judi olahraga. Sebelum membuat taruhan judi online, Anda pun sebaiknya mengetahui dulu secara pasti mengenai pertandingan yang berjalan. Oleh karena itu, segeralah bermain judi dengan bagus di dalam situs Oke77 Indonesia ini. Semua informasi yang ada pun bisa membuat Anda memiliki keputusan permainan yang lebih baik. Jadi, Anda pun bisa segera bertaruh dengan baik di semua pertandingan judi olahraga. Oleh karena itu, segeralah mencari informasi terbaru tentang judi olahraga di dalam situs ini.</p>
+          </li>
+
+          <li>
+            <p>Bursa Taruhan Bola dan Olahraga</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Selanjutnya, Anda pun bisa membuat taruhan judi paling bagus di dalam Oke77 Indonesia ini. Semua informasi yang berkaitan dengan permainan ini akan bisa membawa Anda ke dalam hasil yang terbesar. Oleh karena itu, segeralah masuk ke dalam permainan ini dengan leluasa. Semua pertaruhan akan bisa dipantau dengan baik dengan memakai Oke77 judi nomor satu ini. Dengan begitu, Anda pun bisa segera masuk ke dalam permainan judi yang mana saja. Oke77 akan memberikan bursa taruhan yang terbaik bagi Anda. Bermain judi pun bisa mendatangkan banyak sekali kesenangan.</p>
+          </li>
+
+          <li>
+            <p>Pertandingan Secara Live</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Hasil yang terbesar pun sudah pasti didapatkan oleh semua orang yang sudah bermain di dalam situs Oke77 terbaik untuk hasil maksimal. Kalau ingin bermain judi online ini, Anda pun bisa mengakses pertandingan yang ada secara live. Permainan ini dijamin memberikan kesenangan yang terbesar untuk para pemain. Apalagi kalau Anda mau bermain di dalam situs ini secara live. Dengan begitu, Anda akan mengetahui hasil pertaruhan secara lebih akurat. Fitur informasi yang satu ini jelas tidak boleh dilewatkan begitu saja oleh para pemain yang ingin mendapatkan hasil yang jelas besar.</p>
+          </li>
+
+          <li>
+            <p>Pasaran Judi Toto Gelap Online</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Bermain judi dengan Oke77 Indonesia ini pun bisa memberikan informasi yang tidak terduga sebelumnya. Misalnya saja informasi mengenai bursa di dalam taruhan judi toto gelap. Permainan ini pun bisa menjadi pilihan yang paling bagus untuk semua orang. Anda pasti akan bisa memperoleh hasil yang terbesar kalau mengetahui tentang bursa pasaran toto ini lebih dulu dari orang lain. Jadi, segeralah melakukan permainan judi ini dengan memakai informasi yang tersedia dari Oke77 judi online. Semua yang ada di dalam permainan ini akan memberikan hasil yang dijamin besar untuk semua orang.</p>
+          </li>
+        </ul>
+
+        <h1 class="text-center text-white pt-4 pb-2">Pusat Informasi Terlengkap</h1>
+        <p>Sebagai salah satu pusat informasi terlengkap di Indonesia, Anda akan senang karena bisa memperoleh yang paling besar dari Oke77 judi online ini. Dalam bermain, Anda pun pasti bisa segera mendapatkan semua yang dibutuhkan untuk bisa bermain dengan bagus di dalam situs Oke77 judi online ini. Oke77 Indonesia ini memang menjanjikan kemudahan yang besar bagi semua pemain yang sudah bergabung. oleh karena itu, Anda pun harus segera bergabung bersama Oke77 judi terbaik se-Indonesia ini. Dari satu Oke77 saja, Anda akan memperoleh banyak kemenangan yang pasti akan memuaskan.</p>
+        <p>Secara total, Anda akan bisa mendapatkan informasi yang paling lengkap bursa toto Internasional: Singapura, Hongkong pools, Sydney, Genting 4D, Nagaworlds4D, Saka Pools dan Saka 4D. Jadi, Anda pun bisa terus bermain dan membuat pertaruhan yang paling tepat sesuai dengan prediksi bandar-bandar Internasional itu.</p>
+        <ul>
+
+          <li>
+            <p>Promosi Judi Online</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Anda sebagai pemain akan bisa memperoleh promosi yang bagus dari agen judi online Oke77 Indonesia ini. Semua bonus yang diberikan oleh Oke77 judi online ini jelas bisa memberikan hasil yang lebih memuaskan dari sebelumnya. Oleh karena itu, Anda pun harus bisa mendapatkan hasil yang bagus dari Oke77 judi online Indonesia ini. Dengan begitu, Anda pun bisa segera memperoleh keuntungan yang lebih besar dari bonus judi online ini. Permainan ini pun akan memberikan banyak sekali hasil yang memuaskan untuk semua pemain. Oleh karena itu, segeralah masuk dan memperoleh semua bonus.</p>
+          </li>
+
+          
+          <li>
+            <p>Layanan Pelanggan yang Terbaik</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Salah satu karakteristik dari Oke77 judi online terbaik adalah yang memberikan layanan pelanggan yang paling bagus. Jelas saja Anda harus mengetahui semua tentang layanan pelanggan dari Oke77 judi terbaik ini. Dengan begitu, Anda pun pasti bisa memperoleh hasil yang paling memuaskan. Kalau Anda memutuskan untuk bermain judi di dalam situs Oke77 Indonesia ini, pasti akan memperoleh banyak sekali keuntungan. Salah satunya adalah bisa mendapatkan informasi yang terbaru selama 24 jam, selama 7 hari dalam seminggu. Semua ini akan membuat Anda semakin senang untuk terus bermain judi dengan bagus.</p>
+          </li>
+
+          <li>
+            <p>Kontak Untuk Menghubungi</p>
+          </li>
+          <li style="list-style-type: none">
+            <p>Selain itu, Oke77 Indonesia ini pun memberikan kontak yang pasti bisa membawa kemudahan untuk Anda sebagai pemain. Kalau Anda memiliki pertanyaan tertentu, bisa langsung bertanya ke customer service. Di dalam Oke77 judi online ini sudah ada kontak lewat nomor telepon, wechat, bbm, whatsapp, yahoo massanger,  serta sosial media untuk semua pelanggan yang memiliki kritik, saran, serta pertanyaan. Oleh karena itu, sebaiknya saja Anda segera menghubungi Oke77 judi ini kalau ada pertanyaan yang menganggu. Semua itu jelas bisa memberikan hasil yang paling memuaskan untuk para pemain judi online.</p>
+          </li>
+        </ul>
+
+        <p class="pt-2">
+          Bermain judi dengan Oke77 Indonesia ini memang akan membuat Anda semakin senang. Semua yang ada di Oke77 ini jelas bisa membantu untuk bermain judi secara lebih baik. Oleh karena itu, sebaiknya Anda segera masuk dan bermain di dalam situs Oke77 terbaik ini. Demikian penjelasan tentang Oke77 judi Indonesia dengan berbagai kemenangan yang besar ini. Semoga bisa membuat Anda bermain judi online secara lebih seru dan menyenangkan.
+        </p>
+          
+      </div>
+    </main>
+
+    <!-- Menu -->
+    <div class="menu flex justify-between w-full cover py-2">
+      <ul class="w-full flex justify-between">
+        <li>
+          <a href="" class="text-center text-white">
+            <img class="mx-auto" src="../src/image/icon/icon-home.svg" alt="">
+            <p>HOME</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="text-center text-white">
+            <img class="mx-auto" src="../src/image/icon/icon-promo.svg" alt="">
+            <p>PROMO</p>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="w-full flex justify-center relative">
+        <li class="absolute">
+          <a href="" class="center text-center text-white">
+            <div class="bg p-2 rounded-full flex">
+              <img class="mx-auto my-auto" src="../src/image/icon/icon-setoran.svg" alt="">
+            </div>
+            <p>SETORAN</p>
+          </a>
+        </li>
+      </ul>
+
+      <ul  class="w-full flex justify-between">
+        <li>
+          <a href="" class="text-center text-white">
+            <img class="mx-auto" src="../src/image/icon/icon-daftar.svg" alt="">
+            <p>DAFTAR</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="text-center text-white">
+            <img class="mx-auto" src="../src/image/icon/icon-live-chat.svg" alt="">
+            <p>LIVE CHAT</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $("menu").toggle("slow");
+        });
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>

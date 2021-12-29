@@ -272,4 +272,13 @@ ul li a p {
   transition: all 0.1s ease !important;
   border-radius: 0px;
   display: none !important;
+}
+
+.panduan p {
+  font-size: 12px;
+  text-align: justify;
+}
+.panduan ul {
+  padding-left: 30px;
+  list-style-type: disc;
 }/*# sourceMappingURL=style.css.map */
