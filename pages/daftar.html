@@ -234,12 +234,12 @@
 
     <main class="cover pt-4 py-5">
       <form class="daftar" action="">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Username">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="password" placeholder="Password">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="password" placeholder="Konfirmasi Pasword">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Bank">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Nama Rekening">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="No. Rekening Bank">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Username">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="password" placeholder="Password">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="password" placeholder="Konfirmasi Pasword">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Bank">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Nama Rekening">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="No. Rekening Bank">
         <div class="custom-select">
           <select class="w-full absolutes top-0 bg-transparent border-1 border-white rounded-3 mb-3">
               <option value="0">Mata Uang</option>
@@ -248,20 +248,99 @@
               <option value="3">Euro</option>
           </select>
         </div>
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Email">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Nomor Telepon">
-        <input class="w-full bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Referral">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Email">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Nomor Telepon">
+        <input class="w-full text-white bg-transparent border-1 border-white rounded-3 mb-3" type="text" placeholder="Referral">
         <div class="flex">
           <label class="text-white flex align-items-center mr-2 px-4 font-bold" for="" style="background-color: #460606!important;">11459</label>
-          <input  class="w-full bg-transparent border-1 border-white rounded-3" type="text" placeholder="Kode">
+          <input  class="w-full text-white bg-transparent border-1 border-white rounded-3" type="text" placeholder="Kode">
         </div>
 
         <div class="flex justify-between mt-3 mb-3">
-          <p class="text-white">Sudah ada Akun?Login</p>
+          <p class="text-white">Sudah ada Akun? <a class="link-akun-daftar" href="#" data-bs-toggle="modal"
+          data-bs-target="#exampleModal" >Login</a></p>
           <button class="tombol" style="min-width: 100px;">Konfirmasi</button>
         </div>
       </form>
     </main>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered w-4/5 mx-auto">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close absolute p-0 right-0 top-0 w-6"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img
+                class="w-full"
+                src="./src/image/icon/icon-close.svg"
+                alt=""
+              />
+            </button>
+            <h5
+              class="w-full modal-title text-center text-white"
+              id="exampleModalLabel"
+            >
+              MASUK
+            </h5>
+          </div>
+          <div class="modal-body">
+            <form class="login" action="">
+              <input
+                type="text"
+                class="w-full border-1 border-white rounded-3 mb-3"
+                placeholder="Nama Pengguna"
+              />
+              <input
+                type="text"
+                class="w-full border-1 border-white rounded-3 mb-3"
+                placeholder="Password"
+              />
+              <div class="flex">
+                <input
+                  type="text"
+                  class="w-full border-1 border-white rounded-3 w-3/5"
+                  placeholder="Kode"
+                />
+                <div
+                  class="
+                    referal
+                    text-white
+                    flex
+                    items-center
+                    ml-3
+                    w-2/5
+                    justify-center
+                  "
+                >
+                  11459
+                </div>
+              </div>
+              <div class="flex items-center mt-3 mb-3">
+                <button class="tombol w-2/5">Masuk</button>
+                <p class="w-3/5 text-right" style="color: #ffc700">
+                  <a class="link_akun" href="./daftar.html">
+                    Belum punya akun?
+                  </a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Modal -->
 
     <!-- Menu -->
     <div class="menu flex justify-between w-full cover py-2">

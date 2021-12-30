@@ -281,4 +281,12 @@ ul li a p {
 .panduan ul {
   padding-left: 30px;
   list-style-type: disc;
+}
+
+.link_akun:hover {
+  color: white !important;
+}
+
+.link-akun-daftar:hover {
+  color: gray;
 }/*# sourceMappingURL=style.css.map */
