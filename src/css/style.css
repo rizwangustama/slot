@@ -289,4 +289,41 @@ ul li a p {
 
 .link-akun-daftar:hover {
   color: gray;
+}
+
+#member .credit {
+  background-color: #F1F1F1;
+}
+#member .credit .item p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+#member .credit .dotted {
+  border-left: 1px dashed #B0B0B0;
+  border-right: 1px dashed #B0B0B0;
+}
+
+#member .card {
+  border-radius: 8px;
+}
+
+#member .list .items {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  border-bottom: 1px solid #AEAEAE;
+  color: #292929;
+  display: flex;
+  justify-content: space-between;
+}
+#member .list .items img {
+  padding: 0 5px;
+}
+
+#member .image-profile {
+  left: calc(100% - 64%);
+}
+
+.text-red {
+  color: #930D0D;
 }/*# sourceMappingURL=style.css.map */

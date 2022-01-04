@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
 
-*{
+* {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: rgba(255, 255, 255, 0.50)!important;
+  background-color: rgba(255, 255, 255, 0.50) !important;
 }
 
 .cover {
@@ -23,24 +23,28 @@ body {
 
 .modal-content {
   box-shadow: 0px 0px 27px #A51818;
-  background: #820000!important;
+  background: #820000 !important;
   border-radius: 5px;
 }
+
 .login {
   input {
     font-size: 14px;
     line-height: 21px;
     padding: 7px 12px;
     color: #FFC700;
-    
+
   }
 }
+
 .referal {
   background-color: #460606;
 }
+
 .hongkong {
   background: linear-gradient(76.24deg, #C21617 -19.1%, #EF2726 117.22%);
 }
+
 .sydney {
   background: linear-gradient(76.24deg, #DE8807 -19.1%, #FBAA30 117.22%);
 }
@@ -66,28 +70,33 @@ body {
 }
 
 .collapse-content {
-  
+
   .collapse-wrapper {
     padding: 13px 15px;
+
     h2 {
-    color: white;
-    font-size: 18px;
-    font-weight: semibold;
+      color: white;
+      font-size: 18px;
+      font-weight: semibold;
     }
+
     h1 {
       color: white;
       font-size: 25px;
       font-weight: 500;
       background-color: #2D2E33;
     }
+
     p {
       font-size: 12px;
     }
-    
+
   }
+
   .info {
     padding: 4px 16px;
     background: linear-gradient(0deg, #480707 0%, #521010 100%);
+
     p {
       color: white;
       text-align: center;
@@ -100,9 +109,11 @@ body {
 
 .collapse {
   background: linear-gradient(0deg, #480707 0%, #521010 100%);
+
   .card-body {
-    border-radius: 0px!important;
+    border-radius: 0px !important;
     background: linear-gradient(0deg, #480707 0%, #521010 100%);
+
     p {
       font-size: 12px;
       font-weight: lighter;
@@ -112,9 +123,11 @@ body {
 
 .collapse-promotion {
   background: #120000;
+
   .card-body {
-    border-radius: 0px!important;
+    border-radius: 0px !important;
     background: #120000;
+
     h1 {
       font-size: 18px;
       font-weight: 600;
@@ -122,6 +135,7 @@ body {
       margin: 0;
       padding-bottom: 5px;
     }
+
     p {
       font-size: 14px;
       font-weight: lighter;
@@ -130,14 +144,17 @@ body {
       text-align: justify;
       line-height: 21px;
     }
+
     h3 {
       font-size: 14px;
       font-weight: 600;
     }
+
     ul {
       padding-top: 2px;
       list-style-type: disc;
       padding-left: 20px;
+
       li {
         font-size: 14px;
       }
@@ -151,11 +168,13 @@ body {
     line-height: 21px;
     padding: 7px 12px;
     color: #FFC700;
-    
+
   }
+
   input::placeholder {
     color: #FFC700;
   }
+
   select {
     font-size: 14px;
     color: #FFC700;
@@ -163,14 +182,17 @@ body {
     width: 100%;
     border: 1px solid white;
     background-color: transparent;
+
     option {
       background-color: #3C0708;
     }
+
     option:hover {
       background-color: yellow;
     }
-    
+
   }
+
   .custome-select {
     width: 100%;
     position: relative;
@@ -190,7 +212,7 @@ a {
 }
 
 .tombol {
-  background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%); 
+  background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%);
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
   padding: 5px 15px;
 }
@@ -199,41 +221,49 @@ a {
 
 nav {
   .flex {
-    button{
+    button {
       padding: 0;
     }
+
     button:active {
       outline: none !important;
       border: none !important;
     }
+
     button:focus {
       outline: 0 !important;
       box-shadow: none !important;
     }
   }
 }
+
 nav {
   background-color: #121212;
+
   .signin {
     background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%);
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
     padding: 5px 15px;
   }
+
   ul {
     border-bottom: 0.1px solid rgb(53, 53, 53);
     padding: 0px;
     margin-bottom: 0px;
+
     li {
       img {
         width: 26px;
       }
+
       a {
         font-size: 14px;
         text-decoration: none;
       }
     }
   }
-  .sub-title{
+
+  .sub-title {
     font-size: 10px;
     padding: 10px;
     color: #B1B1B1;
@@ -264,10 +294,11 @@ ul {
 
 .promotion {
   .collapse-promotion {
-    background-color: green!important;
+    background-color: green !important;
   }
+
   .show {
-    background-color: green!important;
+    background-color: green !important;
   }
 }
 
@@ -275,12 +306,15 @@ ul {
   position: sticky;
   bottom: 0;
   background: linear-gradient(228.89deg, #270101 14.85%, #000000 140.17%), #FFFFFF;
-  box-shadow: 0px 4px 49px #060606; 
+  box-shadow: 0px 4px 49px #060606;
+
   ul {
     li {
       top: -36px;
-      .center{
+
+      .center {
         margin-top: -50px;
+
         .bg {
           margin-bottom: 4px;
           width: 58px;
@@ -294,8 +328,8 @@ ul {
 }
 
 .collapsing {
-  background: transparent!important;
-  transition: all 0.1s ease!important;
+  background: transparent !important;
+  transition: all 0.1s ease !important;
   border-radius: 0px;
   display: none !important;
 }
@@ -308,23 +342,71 @@ ul {
 // }
 
 
-.panduan{
+.panduan {
   p {
     font-size: 12px;
     text-align: justify;
   }
+
   ul {
     padding-left: 30px;
     list-style-type: disc;
-    
+
   }
 }
 
 .link_akun:hover {
-  color: white!important;
+  color: white !important;
 }
 
 .link-akun-daftar:hover {
   color: gray;
 }
 
+
+#member {
+  .credit {
+    background-color: #F1F1F1;
+
+    .item {
+      p {
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
+
+    .dotted {
+      border-left: 1px dashed #B0B0B0;
+      border-right: 1px dashed #B0B0B0;
+    }
+  }
+}
+
+#member .card {
+  border-radius: 8px;
+}
+
+
+#member .list {
+  .items {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    border-bottom: 1px solid #AEAEAE;
+    color: #292929;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      padding: 0 5px;
+    }
+  }
+}
+
+#member .image-profile {
+  left: calc(100% - 64%);
+}
+
+.text-red {
+  color: #930D0D;
+}
