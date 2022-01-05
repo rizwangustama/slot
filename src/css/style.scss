@@ -410,3 +410,27 @@ ul {
 .text-red {
   color: #930D0D;
 }
+
+#info-dasar {
+
+  .card-list {
+    .items {
+      border-bottom: 1px solid #AEAEAE;
+
+      .left {
+        font-size: 14px;
+
+      }
+
+      .right {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+.credit .item p {
+  font-size: 14px;
+}

@@ -326,4 +326,18 @@ ul li a p {
 
 .text-red {
   color: #930D0D;
+}
+
+#info-dasar .card-list .items {
+  border-bottom: 1px solid #AEAEAE;
+}
+#info-dasar .card-list .items .left {
+  font-size: 14px;
+}
+#info-dasar .card-list .items .right p {
+  font-size: 12px;
+}
+
+.credit .item p {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
