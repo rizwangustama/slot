@@ -434,3 +434,43 @@ ul {
 .credit .item p {
   font-size: 14px;
 }
+
+.credit {
+  background-color: #F1F1F1;
+
+  .item {
+    p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+  }
+
+  .dotted {
+    border-left: 1px dashed #B0B0B0;
+    border-right: 1px dashed #B0B0B0;
+  }
+}
+
+
+.form-group {
+  .form-input {
+    font-family: 'Poppins';
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid #AEAEAE;
+    border-radius: unset;
+    padding-left: 0;
+  }
+}
+
+.bg-button {
+  padding: 10px!important;
+  border: unset;
+  border: transparent;
+  font-size: 16px!important;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #FFC700 0%, #FFE382 100%);
+}
