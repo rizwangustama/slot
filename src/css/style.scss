@@ -465,12 +465,37 @@ ul {
 }
 
 .bg-button {
-  padding: 10px!important;
+  padding: 10px !important;
   border: unset;
   border: transparent;
-  font-size: 16px!important;
+  font-size: 16px !important;
   font-weight: 600;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(180deg, #FFC700 0%, #FFE382 100%);
+}
+
+
+#info-dasar {
+  .card {
+    .collapse {
+      background: white;
+
+      .left {
+        p {
+          font-size: 14px;
+          margin: 0;
+        }
+      }
+
+      .right {
+        font-size: 14px;
+
+        .button {
+          padding: 2px 15px;
+          background: #930D0D;
+        }
+      }
+    }
+  }
 }

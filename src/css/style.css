@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(9.36%, #1B0909), color-stop(72.04%, #3C0708));
   background: linear-gradient(360deg, #1B0909 9.36%, #3C0708 72.04%);
 }
 
@@ -22,8 +21,7 @@ body {
 }
 
 .modal-content {
-  -webkit-box-shadow: 0px 0px 27px #A51818;
-          box-shadow: 0px 0px 27px #A51818;
+  box-shadow: 0px 0px 27px #A51818;
   background: #820000 !important;
   border-radius: 5px;
 }
@@ -70,30 +68,24 @@ body {
 .collapse-content .collapse-wrapper {
   padding: 13px 15px;
 }
-
 .collapse-content .collapse-wrapper h2 {
   color: white;
   font-size: 18px;
   font-weight: semibold;
 }
-
 .collapse-content .collapse-wrapper h1 {
   color: white;
   font-size: 25px;
   font-weight: 500;
   background-color: #2D2E33;
 }
-
 .collapse-content .collapse-wrapper p {
   font-size: 12px;
 }
-
 .collapse-content .info {
   padding: 4px 16px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#480707), to(#521010));
   background: linear-gradient(0deg, #480707 0%, #521010 100%);
 }
-
 .collapse-content .info p {
   color: white;
   text-align: center;
@@ -103,16 +95,12 @@ body {
 }
 
 .collapse {
-  background: -webkit-gradient(linear, left bottom, left top, from(#480707), to(#521010));
   background: linear-gradient(0deg, #480707 0%, #521010 100%);
 }
-
 .collapse .card-body {
   border-radius: 0px !important;
-  background: -webkit-gradient(linear, left bottom, left top, from(#480707), to(#521010));
   background: linear-gradient(0deg, #480707 0%, #521010 100%);
 }
-
 .collapse .card-body p {
   font-size: 12px;
   font-weight: lighter;
@@ -121,12 +109,10 @@ body {
 .collapse-promotion {
   background: #120000;
 }
-
 .collapse-promotion .card-body {
   border-radius: 0px !important;
   background: #120000;
 }
-
 .collapse-promotion .card-body h1 {
   font-size: 18px;
   font-weight: 600;
@@ -134,7 +120,6 @@ body {
   margin: 0;
   padding-bottom: 5px;
 }
-
 .collapse-promotion .card-body p {
   font-size: 14px;
   font-weight: lighter;
@@ -143,18 +128,15 @@ body {
   text-align: justify;
   line-height: 21px;
 }
-
 .collapse-promotion .card-body h3 {
   font-size: 14px;
   font-weight: 600;
 }
-
 .collapse-promotion .card-body ul {
   padding-top: 2px;
   list-style-type: disc;
   padding-left: 20px;
 }
-
 .collapse-promotion .card-body ul li {
   font-size: 14px;
 }
@@ -165,23 +147,15 @@ body {
   padding: 7px 12px;
   color: #FFC700;
 }
-
-.daftar input::-webkit-input-placeholder {
+.daftar input::-moz-placeholder {
   color: #FFC700;
 }
-
 .daftar input:-ms-input-placeholder {
   color: #FFC700;
 }
-
-.daftar input::-ms-input-placeholder {
-  color: #FFC700;
-}
-
 .daftar input::placeholder {
   color: #FFC700;
 }
-
 .daftar select {
   font-size: 14px;
   color: #FFC700;
@@ -190,15 +164,12 @@ body {
   border: 1px solid white;
   background-color: transparent;
 }
-
 .daftar select option {
   background-color: #3C0708;
 }
-
 .daftar select option:hover {
   background-color: yellow;
 }
-
 .daftar .custome-select {
   width: 100%;
   position: relative;
@@ -217,52 +188,42 @@ a {
 
 .tombol {
   background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%);
-  -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
   padding: 5px 15px;
 }
 
 nav .flex button {
   padding: 0;
 }
-
 nav .flex button:active {
   outline: none !important;
   border: none !important;
 }
-
 nav .flex button:focus {
   outline: 0 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 nav {
   background-color: #121212;
 }
-
 nav .signin {
   background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 51.6%, #FFFCA9 81.61%, #FFFEED 99.32%);
-  -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
   padding: 5px 15px;
 }
-
 nav ul {
   border-bottom: 0.1px solid #353535;
   padding: 0px;
   margin-bottom: 0px;
 }
-
 nav ul li img {
   width: 26px;
 }
-
 nav ul li a {
   font-size: 14px;
   text-decoration: none;
 }
-
 nav .sub-title {
   font-size: 10px;
   padding: 10px;
@@ -281,7 +242,6 @@ ul li a p {
 .promotion .collapse-promotion {
   background-color: green !important;
 }
-
 .promotion .show {
   background-color: green !important;
 }
@@ -291,30 +251,24 @@ ul li a p {
   position: sticky;
   bottom: 0;
   background: linear-gradient(228.89deg, #270101 14.85%, #000000 140.17%), #FFFFFF;
-  -webkit-box-shadow: 0px 4px 49px #060606;
-          box-shadow: 0px 4px 49px #060606;
+  box-shadow: 0px 4px 49px #060606;
 }
-
 .menu ul li {
   top: -36px;
 }
-
 .menu ul li .center {
   margin-top: -50px;
 }
-
 .menu ul li .center .bg {
   margin-bottom: 4px;
   width: 58px;
   height: 58px;
   background: linear-gradient(359.24deg, #FFC805 4.86%, #BA8501 48.16%, #FFD21F 50.12%, #FFFCA9 81.61%, #FFFEED 99.32%);
-  -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
 }
 
 .collapsing {
   background: transparent !important;
-  -webkit-transition: all 0.1s ease !important;
   transition: all 0.1s ease !important;
   border-radius: 0px;
   display: none !important;
@@ -324,7 +278,6 @@ ul li a p {
   font-size: 12px;
   text-align: justify;
 }
-
 .panduan ul {
   padding-left: 30px;
   list-style-type: disc;
@@ -341,12 +294,10 @@ ul li a p {
 #member .credit {
   background-color: #F1F1F1;
 }
-
 #member .credit .item p {
   font-size: 14px;
   margin-bottom: 0;
 }
-
 #member .credit .dotted {
   border-left: 1px dashed #B0B0B0;
   border-right: 1px dashed #B0B0B0;
@@ -362,14 +313,9 @@ ul li a p {
   text-decoration: none;
   border-bottom: 1px solid #AEAEAE;
   color: #292929;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 #member .list .items img {
   padding: 0 5px;
 }
@@ -385,11 +331,9 @@ ul li a p {
 #info-dasar .card-list .items {
   border-bottom: 1px solid #AEAEAE;
 }
-
 #info-dasar .card-list .items .left {
   font-size: 14px;
 }
-
 #info-dasar .card-list .items .right p {
   font-size: 12px;
 }
@@ -401,19 +345,17 @@ ul li a p {
 .credit {
   background-color: #F1F1F1;
 }
-
 .credit .item p {
   font-size: 14px;
   margin-bottom: 0;
 }
-
 .credit .dotted {
   border-left: 1px dashed #B0B0B0;
   border-right: 1px dashed #B0B0B0;
 }
 
 .form-group .form-input {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   border-top: transparent;
   border-left: transparent;
   border-right: transparent;
@@ -429,8 +371,21 @@ ul li a p {
   font-size: 16px !important;
   font-weight: 600;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFC700), to(#FFE382));
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(180deg, #FFC700 0%, #FFE382 100%);
 }
-/*# sourceMappingURL=style.css.map */
+
+#info-dasar .card .collapse {
+  background: white;
+}
+#info-dasar .card .collapse .left p {
+  font-size: 14px;
+  margin: 0;
+}
+#info-dasar .card .collapse .right {
+  font-size: 14px;
+}
+#info-dasar .card .collapse .right .button {
+  padding: 2px 15px;
+  background: #930D0D;
+}/*# sourceMappingURL=style.css.map */
