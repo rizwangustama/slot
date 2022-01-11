@@ -375,6 +375,9 @@ ul li a p {
   background: linear-gradient(180deg, #FFC700 0%, #FFE382 100%);
 }
 
+#info-dasar .card .card-collapse {
+  cursor: pointer;
+}
 #info-dasar .card .collapse {
   background: white;
 }
@@ -388,4 +391,37 @@ ul li a p {
 #info-dasar .card .collapse .right .button {
   padding: 2px 15px;
   background: #930D0D;
+}
+#info-dasar .card form .input input {
+  border-bottom: 1px solid #AEAEAE;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+#info-dasar .card .upload input[type=file]::-webkit-file-upload-button {
+  background-color: #930D0D;
+  border: unset;
+  font-size: 10px;
+  padding: 5px 16px;
+  border-radius: 54px;
+  color: white;
+}
+#info-dasar .card .upload input[type=file]::file-selector-button {
+  background-color: #930D0D;
+  border: unset;
+  font-size: 10px;
+  padding: 5px 16px;
+  border-radius: 54px;
+  color: white;
+}
+#info-dasar .card .upload input.file {
+  border-bottom: unset;
+  font-size: 10px;
+}
+#info-dasar .card .ket {
+  font-size: 12px;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=style.css.map */

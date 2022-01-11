@@ -478,6 +478,9 @@ ul {
 
 #info-dasar {
   .card {
+    .card-collapse {
+      cursor: pointer;
+    }
     .collapse {
       background: white;
 
@@ -497,5 +500,37 @@ ul {
         }
       }
     }
+
+    form {
+      .input{
+        input {
+          border-bottom: 1px solid #AEAEAE;
+          outline: none;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+    }
+    .upload{
+      input[type=file]::file-selector-button{
+        background-color: #930D0D;
+        border: unset;
+        font-size: 10px;
+        padding: 5px 16px;
+        border-radius: 54px;
+        color: white;
+      }
+      input.file{
+        border-bottom: unset;
+        font-size: 10px;
+      }
+    }
+    .ket{
+      font-size: 12px;
+    }
   }
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
 }
