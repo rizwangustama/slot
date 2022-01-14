@@ -481,6 +481,7 @@ ul {
     .card-collapse {
       cursor: pointer;
     }
+
     .collapse {
       background: white;
 
@@ -502,7 +503,7 @@ ul {
     }
 
     form {
-      .input{
+      .input {
         input {
           border-bottom: 1px solid #AEAEAE;
           outline: none;
@@ -511,8 +512,9 @@ ul {
         }
       }
     }
-    .upload{
-      input[type=file]::file-selector-button{
+
+    .upload {
+      input[type=file]::file-selector-button {
         background-color: #930D0D;
         border: unset;
         font-size: 10px;
@@ -520,17 +522,67 @@ ul {
         border-radius: 54px;
         color: white;
       }
-      input.file{
+
+      input.file {
         border-bottom: unset;
         font-size: 10px;
       }
     }
-    .ket{
+
+    .ket {
       font-size: 12px;
     }
   }
 }
 
-input {
+i input {
   font-family: 'Poppins', sans-serif;
+}
+
+.items {
+  border-bottom: 1px solid #AEAEAE;
+  color: #292929;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    padding: 0 5px;
+  }
+}
+
+.text-yellow{
+  color: #F2BD00;
+}
+
+.under{
+  padding-bottom: 7px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.29);
+}
+
+.under::after{
+  color: #930D0D;
+}
+
+table{
+  thead {
+    background-color: #EBEBEB;
+    tr{
+      th{
+        font-size: 10px;
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+  }
+  tbody{
+    tr{
+      .under{
+        font-size: 10px;
+        font-family: 'Poppins',
+        sans-serif;
+        font-weight: 300;
+      }
+    }
+  }
 }

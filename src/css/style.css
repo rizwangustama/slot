@@ -422,6 +422,44 @@ ul li a p {
   font-size: 12px;
 }
 
-input {
+i input {
   font-family: "Poppins", sans-serif;
+}
+
+.items {
+  border-bottom: 1px solid #AEAEAE;
+  color: #292929;
+  display: flex;
+  justify-content: space-between;
+}
+.items img {
+  padding: 0 5px;
+}
+
+.text-yellow {
+  color: #F2BD00;
+}
+
+.under {
+  padding-bottom: 7px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.29);
+}
+
+.under::after {
+  color: #930D0D;
+}
+
+table thead {
+  background-color: #EBEBEB;
+}
+table thead tr th {
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+table tbody tr .under {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
