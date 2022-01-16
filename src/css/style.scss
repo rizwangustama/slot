@@ -425,6 +425,10 @@ ul {
       .right {
         p {
           font-size: 14px;
+          font-weight: 500;
+        }
+        img{
+          max-width: 24px;
         }
       }
     }
@@ -651,3 +655,4 @@ table {
     }
   }
 }
+

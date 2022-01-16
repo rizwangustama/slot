@@ -336,6 +336,10 @@ ul li a p {
 }
 #info-dasar .card-list .items .right p {
   font-size: 14px;
+  font-weight: 500;
+}
+#info-dasar .card-list .items .right img {
+  max-width: 24px;
 }
 
 .credit .item p {
