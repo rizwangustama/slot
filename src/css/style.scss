@@ -392,7 +392,7 @@ ul {
     display: block;
     padding: 10px 0;
     text-decoration: none;
-    border-bottom: 1px solid #AEAEAE;
+    border-bottom: 1px solid rgba(174, 174, 174, 0.29);
     color: #292929;
     display: flex;
     justify-content: space-between;
@@ -415,7 +415,7 @@ ul {
 
   .card-list {
     .items {
-      border-bottom: 1px solid #AEAEAE;
+      border-bottom: 1px solid rgba(174, 174, 174, 0.29);
 
       .left {
         font-size: 14px;
@@ -540,7 +540,7 @@ i input {
 }
 
 .items {
-  border-bottom: 1px solid #AEAEAE;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.29);
   color: #292929;
   display: flex;
   justify-content: space-between;
@@ -550,39 +550,60 @@ i input {
   }
 }
 
-.text-yellow{
+.text-yellow {
   color: #F2BD00;
 }
 
-.under{
+.under {
   padding-bottom: 7px;
   font-size: 14px;
   border-bottom: 1px solid rgba(174, 174, 174, 0.29);
 }
 
-.under::after{
+.under::after {
   color: #930D0D;
 }
 
-table{
+table {
   thead {
     background-color: #EBEBEB;
-    tr{
-      th{
+
+    tr {
+      th {
         font-size: 10px;
         font-weight: 300;
         text-align: center;
       }
     }
   }
-  tbody{
-    tr{
-      .under{
+
+  tbody {
+    tr {
+      .under {
         font-size: 10px;
         font-family: 'Poppins',
-        sans-serif;
+          sans-serif;
         font-weight: 300;
       }
     }
+  }
+}
+
+// Riwayat Penarikan
+#info-riwayat-penarikan {
+  .text-10 {
+    font-size: 10px;
+  }
+
+  tr .sukses {
+    color: #02953D;
+  }
+
+  tr .gagal {
+    color: #FF0303;
+  }
+
+  hr {
+    margin-top: 10px;
   }
 }
