@@ -424,7 +424,7 @@ ul {
 
       .right {
         p {
-          font-size: 12px;
+          font-size: 14px;
         }
       }
     }
@@ -458,7 +458,7 @@ ul {
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    border-bottom: 1px solid #AEAEAE;
+    border-bottom: 1px solid rgba(174, 174, 174, 0.29);
     border-radius: unset;
     padding-left: 0;
   }
@@ -505,7 +505,7 @@ ul {
     form {
       .input {
         input {
-          border-bottom: 1px solid #AEAEAE;
+          border-bottom: 1px solid rgba(174, 174, 174, 0.29);
           outline: none;
           font-weight: 500;
           font-size: 14px;
@@ -606,4 +606,11 @@ table {
   hr {
     margin-top: 10px;
   }
+}
+
+.font-14{
+  font-size: 14px;
+}
+.font-10 {
+  font-size: 10px;
 }
