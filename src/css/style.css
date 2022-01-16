@@ -365,6 +365,7 @@ ul li a p {
 }
 
 .bg-button {
+  color: black !important;
   padding: 10px !important;
   border: unset;
   border: transparent;
@@ -483,4 +484,31 @@ table tbody tr .under {
 
 .font-10 {
   font-size: 10px;
+}
+
+.font-13 {
+  font-size: 13px !important;
+}
+
+.banner {
+  background-color: #C4C4C4;
+  border-radius: 5px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-button .button {
+  font-weight: unset;
+  font-weight: 200;
+  padding: 9px 22px !important;
+  background-color: black;
+  color: white;
+}
+
+.list .box-list {
+  background-color: #F7F7F7;
+  padding: 10px 13px;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
