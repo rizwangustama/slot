@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | oke77</title>
+    <link rel="stylesheet" href="../../src/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Demo styles -->
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      menu {
+        top: 0px;
+        left: 0;
+        background-color: #121212;
+        width: 289px;
+      }
+      .swiper-button-prev {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .swiper-button-next {
+        color: rgba(255, 255, 255, 0.5);
+      }
+    </style>
+  </head>
+  <body class="mx-auto relative">
+    <nav
+      class="navbar cover navbar-light sticky-top py-3"
+      style="background-color: #121212"
+    >
+      <div class="flex w-full justify-between">
+        <div class="flex">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            style="outline: transparent"
+          >
+            <img src="../../src/image/toogle.svg" alt="" />
+          </button>
+
+          <a class="ml-5" href="">
+            <img src="../../src/image/logo.png" width="92px" alt="" />
+          </a>
+        </div>
+        <button
+          class="text-black tombol px-4"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Masuk
+        </button>
+        <div
+          class="offcanvas offcanvas-start w-8/12"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+          style="background-color: #121212"
+        >
+          <div class="grid grid-cols-1 h-full">
+            <div class="wrapper">
+              <button
+                type="button"
+                class="btn-close text-reset hidden"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+              <img
+                class="p-3"
+                src="../../src/image/logo.png"
+                width="120px"
+                alt=""
+              />
+              <ul class="w-full">
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/navbar/sport.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a
+                    href="../../pages/sportbook.html"
+                    class="pl-4 w-full text-white"
+                    >Sports</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/navbar/live-casino.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a
+                    href="../../pages/live-casino.html"
+                    class="pl-4 w-full text-white"
+                    >Live Casino</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/navbar/poker.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="../../pages/poker.html" class="pl-4 w-full text-white"
+                    >Poker</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/icon/icon-togel.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="../../pages/togel.html" class="pl-4 w-full text-white"
+                    >Togel</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/icon/icon-keno.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="../../pages/keno.html" class="pl-4 w-full text-white"
+                    >Keno</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/navbar/slot.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a
+                    href="../../pages/slot-game.html"
+                    class="pl-4 w-full text-white"
+                    >Slots</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/navbar/promosi.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a
+                    href="../../pages/promotion.html"
+                    class="pl-4 w-full text-white"
+                    >Promosi</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/navbar/Rules.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="../../pages/panduan.html" class="pl-4 w-full text-white"
+                    >Panduan</a
+                  >
+                </li>
+                <li
+                  class="
+                    flex
+                    py-2
+                    px-3
+                    align-items-center
+                    hover:bg-black hover:no-underline
+                  "
+                >
+                  <img
+                    src="../../src/image/icon/icon-logout.svg"
+                    width="26px"
+                    alt="logo"
+                  />
+                  <a href="" class="pl-4 w-full text-white">Logout</a>
+                </li>
+              </ul>
+            </div>
+            <p
+              class="text-white py-2 text-center flex justify-center items-end"
+              style="font-size: 10px; color: #b1b1b1"
+            >
+              © 2021 OKE77SLOT. ALL RIGHTS RESERVED.
+            </p>
+            <button
+              class="
+                tombol
+                mt-1
+                flex
+                mx-auto
+                justify-center
+                font-medium
+                px-4
+                py-2
+                hidden
+              "
+              style="width: 90%"
+            >
+              LOGOUT
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered w-4/5 mx-auto">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close absolute p-0 right-0 top-0 w-6"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img
+                class="w-full"
+                src="../../src/image/icon/icon-close.svg"
+                alt=""
+              />
+            </button>
+            <h5
+              class="w-full modal-title text-center text-white"
+              id="exampleModalLabel"
+            >
+              MASUK
+            </h5>
+          </div>
+          <div class="modal-body">
+            <form class="login" action="">
+              <input
+                type="text"
+                class="w-full border-1 border-white rounded-3 mb-3"
+                placeholder="Nama Pengguna"
+              />
+              <input
+                type="text"
+                class="w-full border-1 border-white rounded-3 mb-3"
+                placeholder="Password"
+              />
+              <div class="flex">
+                <input
+                  type="text"
+                  class="w-full border-1 border-white rounded-3 w-3/5"
+                  placeholder="Kode"
+                />
+                <div
+                  class="
+                    referal
+                    text-white
+                    flex
+                    items-center
+                    ml-3
+                    w-2/5
+                    justify-center
+                  "
+                >
+                  11459
+                </div>
+              </div>
+              <div class="flex items-center mt-3 mb-3">
+                <button class="tombol w-2/5">Masuk</button>
+                <p class="w-3/5 text-right" style="color: #ffc700">
+                  <a class="link_akun" href="../../pages/daftar.html">
+                    Belum punya akun?
+                  </a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../../src/image/banner.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../../src/image/banner.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../../src/image/banner.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../../src/image/banner.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="wrapper-marquee">
+      <div class="cover flex">
+        <img src="../src/image/icon/icon-sound.svg" alt="">
+        <div class="marquee">
+          <div class="flex items-center">
+            <p>You spin me right round, baby. Like a record, baby.</p>
+            <p>You spin me right round, baby. Like a record, baby.</p>
+            <p>You spin me right round, baby. Like a record, baby.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cover home-page-card">
+      <div class="card my-3">
+        <div class="flex justify-between">
+          <div class="card-left">
+            <p>Welcome, <span>xdin404</span></p>
+            <h3 class="idr">IDR 500.00</h3>
+          </div>
+          <div class="card-right flex gap-3">
+            <div class="card-box">
+              <img class="mx-auto" src="../src/image/icon/card-setoran.svg" alt="">
+              <p>Setoran</p>
+            </div>
+            <div class="card-box">
+              <img class="mx-auto" src="../src/image/icon/card-windraw.svg" alt="">
+              <p>Withdraw</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="cover pt-2 pb-5">
+      <div class="grid grid-cols-3 gap-1">
+        <a href="../../pages/sportbook.html">
+          <img class="w-full" src="../../src/image/img/Sportsbook.png" alt="" />
+          <p class="text-center text-white">Sportsbook</p>
+        </a>
+        <a href="../../pages/live-casino.html">
+          <img class="w-full" src="../../src/image/img/Casino.png" alt="" />
+          <p class="text-center text-white">Live Casino</p>
+        </a>
+        <a href="../../pages/slot-game.html">
+          <img class="w-full" src="../../src/image/img/Slot.png" alt="" />
+          <p class="text-center text-white">Slot Game</p>
+        </a>
+        <a href="../../pages/togel.html">
+          <img class="w-full" src="../../src/image/img/Togel.png" alt="" />
+          <p class="text-center text-white">Togel</p>
+        </a>
+        <a href="../../pages/keno.html">
+          <img class="w-full" src="../../src/image/img/Number Game.png" alt="" />
+          <p class="text-center text-white">Keno</p>
+        </a>
+        <a href="../../pages/poker.html">
+          <img class="w-full" src="../../src/image/img/Poker Game.png" alt="" />
+          <p class="text-center text-white">Poker</p>
+        </a>
+        <a href="#">
+          <img class="w-full" src="../../src/image/img//Facebook.png" alt="" />
+          <p class="text-center text-white">Facebook</p>
+        </a>
+        <a href="#">
+          <img class="w-full" src="../../src/image/img/Promotion.png" alt="" />
+          <p class="text-center text-white">Promo</p>
+        </a>
+        <a href="#">
+          <img class="w-full" src="../../src/image/img/Whatsapp.png" alt="" />
+          <p class="text-center text-white">Whatsapp</p>
+        </a>
+        <a href="#">
+          <img
+            class="w-full"
+            src="../../src/image/img/Desktop Version.png"
+            alt=""
+          />
+          <p class="text-center text-white">Desktop</p>
+        </a>
+        <a href="#">
+          <img class="w-full" src="../../src/image/img/Dwonload.png" alt="" />
+          <p class="text-center text-white">Mobile</p>
+        </a>
+      </div>
+    </main>
+
+    <!-- Menu -->
+    <div class="menu flex justify-between w-full cover py-2">
+      <ul class="w-full flex justify-between">
+        <li>
+          <a href="../../index.html" class="text-center text-white">
+            <img
+              class="mx-auto hidden"
+              src="../../src/image/icon/icon-home.svg"
+              alt=""
+            />
+            <img
+              class="mx-auto active"
+              src="../../src/image/icon/icon-active-home.svg"
+              alt=""
+            />
+            <p>HOME</p>
+          </a>
+        </li>
+        <li>
+          <a href="../../pages/promotion.html" class="text-center text-white">
+            <img class="mx-auto" src="../../src/image/icon/icon-promo.svg" alt="" />
+            <p>PROMO</p>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="w-full flex justify-center relative">
+        <li class="absolute">
+          <a href="" class="center text-center text-white">
+            <div class="bg p-2 rounded-full flex">
+              <img
+                class="mx-auto my-auto"
+                src="../../src/image/icon/icon-setoran.svg"
+                alt=""
+              />
+            </div>
+            <p>SETORAN</p>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="w-full flex justify-between">
+        <li>
+          <a href="../../pages/daftar.html" class="text-center text-white">
+            <img
+              class="mx-auto"
+              src="../../src/image/icon/icon-daftar.svg"
+              alt=""
+            />
+            <p>DAFTAR</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="text-center text-white">
+            <img
+              class="mx-auto"
+              src="../../src/image/icon/icon-live-chat.svg"
+              alt=""
+            />
+            <p>LIVE CHAT</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $("menu").toggle("slow");
+        });
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        speed: 400,
+        autoplay: true,
+      });
+    </script>
+  </body>
+</html>
