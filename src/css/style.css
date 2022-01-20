@@ -596,4 +596,19 @@ table tbody tr .under {
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 0;
+}
+
+form select {
+  padding: 5px 0;
+  outline: none;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.29);
+}
+form .flex .left p {
+  font-size: 14px;
+  margin: 0;
+}
+form .flex .right .button {
+  font-size: 14px;
+  padding: 2px 15px;
+  background-color: #930D0D;
 }/*# sourceMappingURL=style.css.map */
