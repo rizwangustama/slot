@@ -611,4 +611,12 @@ form .flex .right .button {
   font-size: 14px;
   padding: 2px 15px;
   background-color: #930D0D;
+}
+
+.mb-custom {
+  margin-bottom: 60vh;
+}
+
+.mb-custom-100 {
+  margin-bottom: 100vh;
 }/*# sourceMappingURL=style.css.map */
